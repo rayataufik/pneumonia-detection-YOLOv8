@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ["Lung Opacity"]
+
+roboflow:
+  workspace: pneumonia-detection-fcraf
+  project: pneumonia-4wiyq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pneumonia-detection-fcraf/pneumonia-4wiyq/dataset/2
